@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18605C812BDBDD6200F9E2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605C802BDBDD6200F9E2C1 /* AppDelegate.swift */; };
+		18605C832BDBDD6200F9E2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605C822BDBDD6200F9E2C1 /* SceneDelegate.swift */; };
+		18605C852BDBDD6200F9E2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605C842BDBDD6200F9E2C1 /* ViewController.swift */; };
+		18605C882BDBDD6200F9E2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18605C862BDBDD6200F9E2C1 /* Main.storyboard */; };
+		18605C8B2BDBDD6200F9E2C1 /* Jolly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18605C892BDBDD6200F9E2C1 /* Jolly.xcdatamodeld */; };
+		18605C8D2BDBDD6300F9E2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18605C8C2BDBDD6300F9E2C1 /* Assets.xcassets */; };
+		18605C902BDBDD6300F9E2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18605C8E2BDBDD6300F9E2C1 /* LaunchScreen.storyboard */; };
+		18605C9C2BDBDDAF00F9E2C1 /* JPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605C9B2BDBDDAF00F9E2C1 /* JPostModel.swift */; };
+		18605C9E2BDBDDBE00F9E2C1 /* JPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605C9D2BDBDDBE00F9E2C1 /* JPostViewModel.swift */; };
+		18605CA22BDBE11000F9E2C1 /* JPostTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605CA12BDBE11000F9E2C1 /* JPostTblCell.swift */; };
+		18605CA52BDBE46400F9E2C1 /* BaseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605CA42BDBE46400F9E2C1 /* BaseFile.swift */; };
+		18605CA82BDBEB5400F9E2C1 /* PostDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18605CA72BDBEB5400F9E2C1 /* PostDetailsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18605C7D2BDBDD6200F9E2C1 /* Jolly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jolly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18605C802BDBDD6200F9E2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18605C822BDBDD6200F9E2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18605C842BDBDD6200F9E2C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18605C872BDBDD6200F9E2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18605C8A2BDBDD6200F9E2C1 /* Jolly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jolly.xcdatamodel; sourceTree = "<group>"; };
+		18605C8C2BDBDD6300F9E2C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18605C8F2BDBDD6300F9E2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18605C912BDBDD6300F9E2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18605C9B2BDBDDAF00F9E2C1 /* JPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPostModel.swift; sourceTree = "<group>"; };
+		18605C9D2BDBDDBE00F9E2C1 /* JPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPostViewModel.swift; sourceTree = "<group>"; };
+		18605CA12BDBE11000F9E2C1 /* JPostTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPostTblCell.swift; sourceTree = "<group>"; };
+		18605CA42BDBE46400F9E2C1 /* BaseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFile.swift; sourceTree = "<group>"; };
+		18605CA72BDBEB5400F9E2C1 /* PostDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18605C7A2BDBDD6200F9E2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18605C742BDBDD6200F9E2C1 = {
+			isa = PBXGroup;
+			children = (
+				18605C7F2BDBDD6200F9E2C1 /* Jolly */,
+				18605C7E2BDBDD6200F9E2C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18605C7E2BDBDD6200F9E2C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18605C7D2BDBDD6200F9E2C1 /* Jolly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18605C7F2BDBDD6200F9E2C1 /* Jolly */ = {
+			isa = PBXGroup;
+			children = (
+				18605CA32BDBE45400F9E2C1 /* Custom */,
+				18605C9A2BDBDD9000F9E2C1 /* Controller */,
+				18605C992BDBDD8A00F9E2C1 /* View */,
+				18605C982BDBDD8300F9E2C1 /* ViewModel */,
+				18605C972BDBDD7F00F9E2C1 /* Model */,
+				18605C802BDBDD6200F9E2C1 /* AppDelegate.swift */,
+				18605C822BDBDD6200F9E2C1 /* SceneDelegate.swift */,
+				18605C8C2BDBDD6300F9E2C1 /* Assets.xcassets */,
+				18605C8E2BDBDD6300F9E2C1 /* LaunchScreen.storyboard */,
+				18605C912BDBDD6300F9E2C1 /* Info.plist */,
+				18605C892BDBDD6200F9E2C1 /* Jolly.xcdatamodeld */,
+			);
+			path = Jolly;
+			sourceTree = "<group>";
+		};
+		18605C972BDBDD7F00F9E2C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18605C9B2BDBDDAF00F9E2C1 /* JPostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18605C982BDBDD8300F9E2C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18605C9D2BDBDDBE00F9E2C1 /* JPostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18605C992BDBDD8A00F9E2C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18605C862BDBDD6200F9E2C1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18605C9A2BDBDD9000F9E2C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18605CA02BDBE0F400F9E2C1 /* TableCell */,
+				18605C842BDBDD6200F9E2C1 /* ViewController.swift */,
+				18605CA72BDBEB5400F9E2C1 /* PostDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18605CA02BDBE0F400F9E2C1 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				18605CA12BDBE11000F9E2C1 /* JPostTblCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		18605CA32BDBE45400F9E2C1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				18605CA42BDBE46400F9E2C1 /* BaseFile.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18605C7C2BDBDD6200F9E2C1 /* Jolly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18605C942BDBDD6300F9E2C1 /* Build configuration list for PBXNativeTarget "Jolly" */;
+			buildPhases = (
+				18605C792BDBDD6200F9E2C1 /* Sources */,
+				18605C7A2BDBDD6200F9E2C1 /* Frameworks */,
+				18605C7B2BDBDD6200F9E2C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jolly;
+			productName = Jolly;
+			productReference = 18605C7D2BDBDD6200F9E2C1 /* Jolly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18605C752BDBDD6200F9E2C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					18605C7C2BDBDD6200F9E2C1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 18605C782BDBDD6200F9E2C1 /* Build configuration list for PBXProject "Jolly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18605C742BDBDD6200F9E2C1;
+			productRefGroup = 18605C7E2BDBDD6200F9E2C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18605C7C2BDBDD6200F9E2C1 /* Jolly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18605C7B2BDBDD6200F9E2C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18605C902BDBDD6300F9E2C1 /* LaunchScreen.storyboard in Resources */,
+				18605C8D2BDBDD6300F9E2C1 /* Assets.xcassets in Resources */,
+				18605C882BDBDD6200F9E2C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18605C792BDBDD6200F9E2C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18605C8B2BDBDD6200F9E2C1 /* Jolly.xcdatamodeld in Sources */,
+				18605C9C2BDBDDAF00F9E2C1 /* JPostModel.swift in Sources */,
+				18605CA22BDBE11000F9E2C1 /* JPostTblCell.swift in Sources */,
+				18605C852BDBDD6200F9E2C1 /* ViewController.swift in Sources */,
+				18605CA52BDBE46400F9E2C1 /* BaseFile.swift in Sources */,
+				18605C9E2BDBDDBE00F9E2C1 /* JPostViewModel.swift in Sources */,
+				18605C812BDBDD6200F9E2C1 /* AppDelegate.swift in Sources */,
+				18605CA82BDBEB5400F9E2C1 /* PostDetailsVC.swift in Sources */,
+				18605C832BDBDD6200F9E2C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18605C862BDBDD6200F9E2C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18605C872BDBDD6200F9E2C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18605C8E2BDBDD6300F9E2C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18605C8F2BDBDD6300F9E2C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18605C922BDBDD6300F9E2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18605C932BDBDD6300F9E2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18605C952BDBDD6300F9E2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WNJ796K97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jolly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jolly.Jolly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18605C962BDBDD6300F9E2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WNJ796K97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jolly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jolly.Jolly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18605C782BDBDD6200F9E2C1 /* Build configuration list for PBXProject "Jolly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18605C922BDBDD6300F9E2C1 /* Debug */,
+				18605C932BDBDD6300F9E2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18605C942BDBDD6300F9E2C1 /* Build configuration list for PBXNativeTarget "Jolly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18605C952BDBDD6300F9E2C1 /* Debug */,
+				18605C962BDBDD6300F9E2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18605C892BDBDD6200F9E2C1 /* Jolly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18605C8A2BDBDD6200F9E2C1 /* Jolly.xcdatamodel */,
+			);
+			currentVersion = 18605C8A2BDBDD6200F9E2C1 /* Jolly.xcdatamodel */;
+			path = Jolly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18605C752BDBDD6200F9E2C1 /* Project object */;
+}
